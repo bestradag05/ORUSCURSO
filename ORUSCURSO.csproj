@@ -52,7 +52,6 @@
     <Compile Include="Datos\Dcargos.cs" />
     <Compile Include="Datos\Dpersonal.cs" />
     <Compile Include="Logica\Bases.cs" />
-    <Compile Include="Logica\git.cs" />
     <Compile Include="Logica\Lasistencias.cs" />
     <Compile Include="Logica\Lcargos.cs" />
     <Compile Include="Logica\Lpersonal.cs" />
