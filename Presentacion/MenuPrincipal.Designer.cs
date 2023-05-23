@@ -89,7 +89,7 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(220, 922);
             this.panel1.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 352);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(220, 570);
             this.panel4.TabIndex = 3;
@@ -116,7 +116,7 @@
             this.panel17.Controls.Add(this.panel22);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel17.Location = new System.Drawing.Point(0, 400);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(220, 170);
             this.panel17.TabIndex = 4;
@@ -139,7 +139,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
             this.pictureBox1.Location = new System.Drawing.Point(0, 12);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(220, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -150,7 +150,7 @@
             // 
             this.panel22.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel22.Location = new System.Drawing.Point(0, 0);
-            this.panel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel22.Margin = new System.Windows.Forms.Padding(4);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(220, 12);
             this.panel22.TabIndex = 0;
@@ -163,7 +163,7 @@
             this.panel18.Controls.Add(this.panel20);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel18.Location = new System.Drawing.Point(0, 320);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(220, 80);
             this.panel18.TabIndex = 5;
@@ -181,7 +181,7 @@
             this.btnEstaciones.Image = global::ORUSCURSO.Properties.Resources.estaciones;
             this.btnEstaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEstaciones.Location = new System.Drawing.Point(13, 12);
-            this.btnEstaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEstaciones.Margin = new System.Windows.Forms.Padding(4);
             this.btnEstaciones.Name = "btnEstaciones";
             this.btnEstaciones.Size = new System.Drawing.Size(194, 68);
             this.btnEstaciones.TabIndex = 3;
@@ -193,7 +193,7 @@
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel21.Location = new System.Drawing.Point(207, 12);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel21.Margin = new System.Windows.Forms.Padding(4);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(13, 68);
             this.panel21.TabIndex = 4;
@@ -202,7 +202,7 @@
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel19.Location = new System.Drawing.Point(0, 12);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(13, 68);
             this.panel19.TabIndex = 1;
@@ -211,7 +211,7 @@
             // 
             this.panel20.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel20.Location = new System.Drawing.Point(0, 0);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(220, 12);
             this.panel20.TabIndex = 0;
@@ -223,7 +223,7 @@
             this.panel14.Controls.Add(this.panel16);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel14.Location = new System.Drawing.Point(0, 240);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(220, 80);
             this.panel14.TabIndex = 3;
@@ -239,7 +239,7 @@
             this.btnRespaldos.Image = global::ORUSCURSO.Properties.Resources.respaldo;
             this.btnRespaldos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRespaldos.Location = new System.Drawing.Point(13, 12);
-            this.btnRespaldos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRespaldos.Margin = new System.Windows.Forms.Padding(4);
             this.btnRespaldos.Name = "btnRespaldos";
             this.btnRespaldos.Size = new System.Drawing.Size(207, 68);
             this.btnRespaldos.TabIndex = 3;
@@ -251,7 +251,7 @@
             // 
             this.panel15.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel15.Location = new System.Drawing.Point(0, 12);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(13, 68);
             this.panel15.TabIndex = 1;
@@ -260,7 +260,7 @@
             // 
             this.panel16.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel16.Location = new System.Drawing.Point(0, 0);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(220, 12);
             this.panel16.TabIndex = 0;
@@ -272,7 +272,7 @@
             this.panel11.Controls.Add(this.panel13);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 160);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(220, 80);
             this.panel11.TabIndex = 2;
@@ -288,7 +288,7 @@
             this.btnRestaurar.Image = global::ORUSCURSO.Properties.Resources.clasificar;
             this.btnRestaurar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRestaurar.Location = new System.Drawing.Point(13, 12);
-            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(207, 68);
             this.btnRestaurar.TabIndex = 3;
@@ -300,7 +300,7 @@
             // 
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(0, 12);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(13, 68);
             this.panel12.TabIndex = 1;
@@ -309,7 +309,7 @@
             // 
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 0);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(220, 12);
             this.panel13.TabIndex = 0;
@@ -321,7 +321,7 @@
             this.panel8.Controls.Add(this.panel10);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(0, 80);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(220, 80);
             this.panel8.TabIndex = 1;
@@ -337,19 +337,20 @@
             this.btnUsuarios.Image = global::ORUSCURSO.Properties.Resources.coworking;
             this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUsuarios.Location = new System.Drawing.Point(13, 12);
-            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(207, 68);
             this.btnUsuarios.TabIndex = 3;
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // panel9
             // 
             this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel9.Location = new System.Drawing.Point(0, 12);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(13, 68);
             this.panel9.TabIndex = 1;
@@ -358,7 +359,7 @@
             // 
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(0, 0);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(220, 12);
             this.panel10.TabIndex = 0;
@@ -370,7 +371,7 @@
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(220, 80);
             this.panel5.TabIndex = 0;
@@ -386,7 +387,7 @@
             this.btnRegistro.Image = global::ORUSCURSO.Properties.Resources.hora;
             this.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistro.Location = new System.Drawing.Point(13, 12);
-            this.btnRegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistro.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(207, 68);
             this.btnRegistro.TabIndex = 3;
@@ -398,7 +399,7 @@
             // 
             this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel7.Location = new System.Drawing.Point(0, 12);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(13, 68);
             this.panel7.TabIndex = 1;
@@ -407,7 +408,7 @@
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(220, 12);
             this.panel6.TabIndex = 0;
@@ -421,7 +422,7 @@
             this.btnPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPersonal.ForeColor = System.Drawing.Color.White;
             this.btnPersonal.Location = new System.Drawing.Point(0, 163);
-            this.btnPersonal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPersonal.Margin = new System.Windows.Forms.Padding(4);
             this.btnPersonal.Name = "btnPersonal";
             this.btnPersonal.Size = new System.Drawing.Size(220, 97);
             this.btnPersonal.TabIndex = 2;
@@ -438,7 +439,7 @@
             this.btnConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultas.ForeColor = System.Drawing.Color.White;
             this.btnConsultas.Location = new System.Drawing.Point(0, 66);
-            this.btnConsultas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConsultas.Margin = new System.Windows.Forms.Padding(4);
             this.btnConsultas.Name = "btnConsultas";
             this.btnConsultas.Size = new System.Drawing.Size(220, 97);
             this.btnConsultas.TabIndex = 1;
@@ -453,7 +454,7 @@
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(220, 66);
             this.panel3.TabIndex = 0;
@@ -475,7 +476,7 @@
             // 
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox3.Location = new System.Drawing.Point(44, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(44, 66);
             this.pictureBox3.TabIndex = 1;
@@ -485,7 +486,7 @@
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(44, 66);
             this.pictureBox2.TabIndex = 0;
@@ -497,7 +498,7 @@
             this.PanelPadre.Controls.Add(this.panelBienvenida);
             this.PanelPadre.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelPadre.Location = new System.Drawing.Point(220, 0);
-            this.PanelPadre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelPadre.Margin = new System.Windows.Forms.Padding(4);
             this.PanelPadre.Name = "PanelPadre";
             this.PanelPadre.Size = new System.Drawing.Size(1113, 922);
             this.PanelPadre.TabIndex = 1;
@@ -506,7 +507,7 @@
             // 
             this.panelBienvenida.Controls.Add(this.label3);
             this.panelBienvenida.Location = new System.Drawing.Point(176, 42);
-            this.panelBienvenida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelBienvenida.Margin = new System.Windows.Forms.Padding(4);
             this.panelBienvenida.Name = "panelBienvenida";
             this.panelBienvenida.Size = new System.Drawing.Size(704, 390);
             this.panelBienvenida.TabIndex = 0;
@@ -531,7 +532,7 @@
             this.ClientSize = new System.Drawing.Size(1333, 922);
             this.Controls.Add(this.PanelPadre);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
