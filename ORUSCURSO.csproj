@@ -51,12 +51,16 @@
     <Compile Include="Datos\Dasistencias.cs" />
     <Compile Include="Datos\Dcargos.cs" />
     <Compile Include="Datos\Dmodulos.cs" />
+    <Compile Include="Datos\Dpermisos.cs" />
     <Compile Include="Datos\Dpersonal.cs" />
+    <Compile Include="Datos\Dusuario.cs" />
     <Compile Include="Logica\Bases.cs" />
     <Compile Include="Logica\Lasistencias.cs" />
     <Compile Include="Logica\Lcargos.cs" />
     <Compile Include="Logica\Lmodulos.cs" />
+    <Compile Include="Logica\Lpermisos.cs" />
     <Compile Include="Logica\Lpersonal.cs" />
+    <Compile Include="Logica\Lusuario.cs" />
     <Compile Include="Presentacion\CtlUsuarios.cs">
       <SubType>UserControl</SubType>
     </Compile>
