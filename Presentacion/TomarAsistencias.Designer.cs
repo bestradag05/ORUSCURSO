@@ -61,8 +61,9 @@
             this.panel1.Controls.Add(this.Label66);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1787, 62);
+            this.panel1.Size = new System.Drawing.Size(1340, 50);
             this.panel1.TabIndex = 0;
             // 
             // BtnIniciarSecion
@@ -74,9 +75,10 @@
             this.BtnIniciarSecion.Dock = System.Windows.Forms.DockStyle.Right;
             this.BtnIniciarSecion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnIniciarSecion.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnIniciarSecion.Location = new System.Drawing.Point(1524, 0);
+            this.BtnIniciarSecion.Location = new System.Drawing.Point(1143, 0);
+            this.BtnIniciarSecion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnIniciarSecion.Name = "BtnIniciarSecion";
-            this.BtnIniciarSecion.Size = new System.Drawing.Size(263, 62);
+            this.BtnIniciarSecion.Size = new System.Drawing.Size(197, 50);
             this.BtnIniciarSecion.TabIndex = 601;
             this.BtnIniciarSecion.Text = "Iniciar Secion";
             this.BtnIniciarSecion.UseVisualStyleBackColor = false;
@@ -88,9 +90,8 @@
             this.Label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label66.ForeColor = System.Drawing.Color.White;
             this.Label66.Location = new System.Drawing.Point(0, 0);
-            this.Label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label66.Name = "Label66";
-            this.Label66.Size = new System.Drawing.Size(135, 62);
+            this.Label66.Size = new System.Drawing.Size(101, 50);
             this.Label66.TabIndex = 600;
             this.Label66.Text = "Orus 369";
             this.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -101,9 +102,10 @@
             this.texto.AutoSize = true;
             this.texto.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.texto.ForeColor = System.Drawing.Color.White;
-            this.texto.Location = new System.Drawing.Point(75, 375);
+            this.texto.Location = new System.Drawing.Point(56, 305);
+            this.texto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.texto.Name = "texto";
-            this.texto.Size = new System.Drawing.Size(206, 36);
+            this.texto.Size = new System.Drawing.Size(166, 29);
             this.texto.TabIndex = 0;
             this.texto.Text = "Identificacion: ";
             // 
@@ -112,9 +114,10 @@
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.ForeColor = System.Drawing.Color.White;
-            this.lbl1.Location = new System.Drawing.Point(170, 476);
+            this.lbl1.Location = new System.Drawing.Point(128, 387);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(105, 36);
+            this.lbl1.Size = new System.Drawing.Size(86, 29);
             this.lbl1.TabIndex = 1;
             this.lbl1.Text = "Fecha:";
             // 
@@ -123,9 +126,10 @@
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.ForeColor = System.Drawing.Color.White;
-            this.lbl2.Location = new System.Drawing.Point(170, 537);
+            this.lbl2.Location = new System.Drawing.Point(128, 436);
+            this.lbl2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(87, 36);
+            this.lbl2.Size = new System.Drawing.Size(71, 29);
             this.lbl2.TabIndex = 2;
             this.lbl2.Text = "Hora:";
             // 
@@ -134,9 +138,10 @@
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.ForeColor = System.Drawing.Color.DimGray;
-            this.lblFecha.Location = new System.Drawing.Point(292, 476);
+            this.lblFecha.Location = new System.Drawing.Point(219, 387);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(97, 36);
+            this.lblFecha.Size = new System.Drawing.Size(80, 29);
             this.lblFecha.TabIndex = 3;
             this.lblFecha.Text = "Fecha";
             // 
@@ -145,9 +150,10 @@
             this.lblHora.AutoSize = true;
             this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.Color.DimGray;
-            this.lblHora.Location = new System.Drawing.Point(292, 537);
+            this.lblHora.Location = new System.Drawing.Point(219, 436);
+            this.lblHora.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(79, 36);
+            this.lblHora.Size = new System.Drawing.Size(65, 29);
             this.lblHora.TabIndex = 4;
             this.lblHora.Text = "Hora";
             // 
@@ -156,10 +162,9 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(171)))), ((int)(((byte)(55)))));
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(282, 401);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Location = new System.Drawing.Point(212, 326);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(437, 1);
+            this.panel3.Size = new System.Drawing.Size(328, 1);
             this.panel3.TabIndex = 464;
             // 
             // txtIdentificacion
@@ -169,10 +174,9 @@
             this.txtIdentificacion.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtIdentificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdentificacion.ForeColor = System.Drawing.Color.White;
-            this.txtIdentificacion.Location = new System.Drawing.Point(282, 362);
-            this.txtIdentificacion.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIdentificacion.Location = new System.Drawing.Point(212, 294);
             this.txtIdentificacion.Name = "txtIdentificacion";
-            this.txtIdentificacion.Size = new System.Drawing.Size(437, 34);
+            this.txtIdentificacion.Size = new System.Drawing.Size(328, 28);
             this.txtIdentificacion.TabIndex = 463;
             this.txtIdentificacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtIdentificacion.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -183,8 +187,9 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(777, 300);
+            this.pictureBox1.Size = new System.Drawing.Size(583, 244);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 465;
             this.pictureBox1.TabStop = false;
@@ -197,9 +202,10 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 300);
+            this.label1.Location = new System.Drawing.Point(0, 244);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(777, 36);
+            this.label1.Size = new System.Drawing.Size(583, 29);
             this.label1.TabIndex = 466;
             this.label1.Text = "REGISTRO DE ASISTENCIA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,9 +224,10 @@
             this.panelRegistro.Controls.Add(this.lbl1);
             this.panelRegistro.Controls.Add(this.texto);
             this.panelRegistro.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panelRegistro.Location = new System.Drawing.Point(626, 118);
+            this.panelRegistro.Location = new System.Drawing.Point(470, 96);
+            this.panelRegistro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelRegistro.Name = "panelRegistro";
-            this.panelRegistro.Size = new System.Drawing.Size(777, 852);
+            this.panelRegistro.Size = new System.Drawing.Size(583, 692);
             this.panelRegistro.TabIndex = 1;
             this.panelRegistro.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -228,10 +235,9 @@
             // 
             this.txtaviso.BackColor = System.Drawing.Color.Transparent;
             this.txtaviso.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(171)))), ((int)(((byte)(55)))));
-            this.txtaviso.Location = new System.Drawing.Point(52, 614);
-            this.txtaviso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtaviso.Location = new System.Drawing.Point(39, 499);
             this.txtaviso.Name = "txtaviso";
-            this.txtaviso.Size = new System.Drawing.Size(667, 36);
+            this.txtaviso.Size = new System.Drawing.Size(500, 29);
             this.txtaviso.TabIndex = 468;
             this.txtaviso.Text = "********";
             this.txtaviso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -240,10 +246,10 @@
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.txtNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtNombre.Location = new System.Drawing.Point(52, 650);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(9, 0, 9, 0);
+            this.txtNombre.Location = new System.Drawing.Point(39, 528);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(667, 47);
+            this.txtNombre.Size = new System.Drawing.Size(500, 38);
             this.txtNombre.TabIndex = 467;
             this.txtNombre.Text = "***";
             this.txtNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -254,9 +260,10 @@
             this.panelObservacion.Controls.Add(this.txtObservacion);
             this.panelObservacion.Controls.Add(this.lblObservaciones);
             this.panelObservacion.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panelObservacion.Location = new System.Drawing.Point(208, 118);
+            this.panelObservacion.Location = new System.Drawing.Point(156, 96);
+            this.panelObservacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelObservacion.Name = "panelObservacion";
-            this.panelObservacion.Size = new System.Drawing.Size(332, 615);
+            this.panelObservacion.Size = new System.Drawing.Size(249, 500);
             this.panelObservacion.TabIndex = 2;
             this.panelObservacion.Visible = false;
             // 
@@ -272,11 +279,10 @@
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirmar.ForeColor = System.Drawing.Color.White;
-            this.btnConfirmar.Location = new System.Drawing.Point(6, 246);
-            this.btnConfirmar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnConfirmar.Location = new System.Drawing.Point(4, 200);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnConfirmar.Size = new System.Drawing.Size(184, 55);
+            this.btnConfirmar.Size = new System.Drawing.Size(138, 45);
             this.btnConfirmar.TabIndex = 612;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
@@ -288,9 +294,10 @@
             this.txtObservacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtObservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtObservacion.ForeColor = System.Drawing.Color.White;
-            this.txtObservacion.Location = new System.Drawing.Point(0, 33);
+            this.txtObservacion.Location = new System.Drawing.Point(0, 27);
+            this.txtObservacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtObservacion.Name = "txtObservacion";
-            this.txtObservacion.Size = new System.Drawing.Size(332, 189);
+            this.txtObservacion.Size = new System.Drawing.Size(249, 154);
             this.txtObservacion.TabIndex = 1;
             this.txtObservacion.Text = "";
             // 
@@ -301,8 +308,9 @@
             this.lblObservaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblObservaciones.ForeColor = System.Drawing.Color.White;
             this.lblObservaciones.Location = new System.Drawing.Point(0, 0);
+            this.lblObservaciones.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblObservaciones.Name = "lblObservaciones";
-            this.lblObservaciones.Size = new System.Drawing.Size(332, 33);
+            this.lblObservaciones.Size = new System.Drawing.Size(249, 27);
             this.lblObservaciones.TabIndex = 0;
             this.lblObservaciones.Text = "Oberservaciones";
             this.lblObservaciones.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -314,15 +322,16 @@
             // 
             // TomarAsistencias
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.ClientSize = new System.Drawing.Size(1787, 905);
+            this.ClientSize = new System.Drawing.Size(1340, 735);
             this.Controls.Add(this.panelObservacion);
             this.Controls.Add(this.panelRegistro);
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TomarAsistencias";
             this.Text = " Tomar Asistencias";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

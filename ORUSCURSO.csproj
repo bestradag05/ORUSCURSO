@@ -61,11 +61,35 @@
     <Compile Include="Logica\Lpermisos.cs" />
     <Compile Include="Logica\Lpersonal.cs" />
     <Compile Include="Logica\Lusuario.cs" />
+    <Compile Include="Presentacion\AsistenteInstalacion\ConexionRemota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\ConexionRemota.Designer.cs">
+      <DependentUpon>ConexionRemota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\EleccionServidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\EleccionServidor.Designer.cs">
+      <DependentUpon>EleccionServidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\InstalacionBd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\InstalacionBd.Designer.cs">
+      <DependentUpon>InstalacionBd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\CtlUsuarios.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Presentacion\CtlUsuarios.Designer.cs">
       <DependentUpon>CtlUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -87,8 +111,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\AsistenteInstalacion\ConexionRemota.resx">
+      <DependentUpon>ConexionRemota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AsistenteInstalacion\EleccionServidor.resx">
+      <DependentUpon>EleccionServidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AsistenteInstalacion\InstalacionBd.resx">
+      <DependentUpon>InstalacionBd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\CtlUsuarios.resx">
       <DependentUpon>CtlUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -197,6 +233,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\foto %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warnin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
