@@ -55,6 +55,8 @@
     <Compile Include="Datos\Dpersonal.cs" />
     <Compile Include="Datos\Dusuario.cs" />
     <Compile Include="Logica\Bases.cs" />
+    <Compile Include="Logica\Desencryptacion.cs" />
+    <Compile Include="Logica\Encryptacion.cs" />
     <Compile Include="Logica\Lasistencias.cs" />
     <Compile Include="Logica\Lcargos.cs" />
     <Compile Include="Logica\Lmodulos.cs" />
@@ -78,6 +80,12 @@
     </Compile>
     <Compile Include="Presentacion\AsistenteInstalacion\InstalacionBd.Designer.cs">
       <DependentUpon>InstalacionBd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\UsuariosPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AsistenteInstalacion\UsuariosPrincipal.Designer.cs">
+      <DependentUpon>UsuariosPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\CtlUsuarios.cs">
       <SubType>UserControl</SubType>

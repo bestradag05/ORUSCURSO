@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InstalacionBd));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Label66 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelInstalacion = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnInstalarServidor = new System.Windows.Forms.Button();
@@ -44,7 +46,6 @@
             this.min = new System.Windows.Forms.Label();
             this.Label4 = new System.Windows.Forms.Label();
             this.seg = new System.Windows.Forms.Label();
-            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.Label15 = new System.Windows.Forms.Label();
@@ -74,13 +75,17 @@
             this.lblBasededatos = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
             this.Label8 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.TimerCRARINI = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.panelInstalacion.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.panel8.SuspendLayout();
             this.GroupBox6.SuspendLayout();
             this.Panel10.SuspendLayout();
@@ -122,14 +127,14 @@
             this.Label66.Text = "Orus 369";
             this.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel2
+            // panelInstalacion
             // 
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.btnInstalarServidor);
-            this.panel2.Location = new System.Drawing.Point(83, 114);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(483, 570);
-            this.panel2.TabIndex = 2;
+            this.panelInstalacion.Controls.Add(this.panel3);
+            this.panelInstalacion.Controls.Add(this.btnInstalarServidor);
+            this.panelInstalacion.Location = new System.Drawing.Point(83, 114);
+            this.panelInstalacion.Name = "panelInstalacion";
+            this.panelInstalacion.Size = new System.Drawing.Size(483, 570);
+            this.panelInstalacion.TabIndex = 2;
             // 
             // panel3
             // 
@@ -140,6 +145,18 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(481, 451);
             this.panel3.TabIndex = 612;
+            // 
+            // PictureBox2
+            // 
+            this.PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
+            this.PictureBox2.Location = new System.Drawing.Point(0, 166);
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.Size = new System.Drawing.Size(481, 285);
+            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox2.TabIndex = 618;
+            this.PictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -253,18 +270,6 @@
             this.seg.Size = new System.Drawing.Size(27, 20);
             this.seg.TabIndex = 622;
             this.seg.Text = "00";
-            // 
-            // PictureBox2
-            // 
-            this.PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(0, 166);
-            this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(481, 285);
-            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox2.TabIndex = 618;
-            this.PictureBox2.TabStop = false;
             // 
             // panel8
             // 
@@ -572,6 +577,22 @@
             this.Label8.TabIndex = 618;
             this.Label8.Text = "Nombre de Instancia:";
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 10;
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 10;
+            // 
+            // TimerCRARINI
+            // 
+            this.TimerCRARINI.Interval = 10;
+            // 
             // InstalacionBd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -580,18 +601,19 @@
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelInstalacion);
             this.Controls.Add(this.panel1);
             this.Name = "InstalacionBd";
             this.Text = "InstalacionBd";
+            this.Load += new System.EventHandler(this.InstalacionBd_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
+            this.panelInstalacion.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.GroupBox6.ResumeLayout(false);
@@ -609,7 +631,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         internal System.Windows.Forms.Label Label66;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelInstalacion;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel5;
@@ -651,5 +673,9 @@
         internal System.Windows.Forms.Label lblBasededatos;
         internal System.Windows.Forms.Label Label6;
         internal System.Windows.Forms.Label Label8;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer TimerCRARINI;
     }
 }

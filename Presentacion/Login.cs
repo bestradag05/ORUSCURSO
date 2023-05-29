@@ -46,7 +46,7 @@ namespace ORUSCURSO.Presentacion
                 if(Contador == 0)
                 {
                     Dispose();
-                    AsistenteInstalacion.UsuariosPrincipal frm = new UsuariosPrincipal();
+                    UsuariosPrincipal frm = new UsuariosPrincipal();
                     frm.ShowDialog();
 
                     
