@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ORUSCURSO.Presentacion.AsistenteInstalacion
 {
-    public partial class InstalacionBd : Form
+    public partial class UsuariosPrincipal : Form
     {
-        public InstalacionBd()
+        public UsuariosPrincipal()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel6_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

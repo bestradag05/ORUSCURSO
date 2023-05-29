@@ -15,7 +15,16 @@ namespace ORUSCURSO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Presentacion.MenuPrincipal());
+            Presentacion.Login frm = new Presentacion.Login();
+            frm.FormClosed += Frm_FormClosed;
+            frm.ShowDialog();
+            Application.Run();
+        }
+
+        private static void Frm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.ExitThread();
+            Application.Exit();
         }
     }
 }

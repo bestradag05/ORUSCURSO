@@ -80,5 +80,57 @@ namespace ORUSCURSO.Datos
                 CONEXIONMAESTRA.cerrar();
             }
         }
+
+        public void VerificarUsuarios(ref string Indicador)
+        {
+            try
+            {
+                int Iduser;
+                CONEXIONMAESTRA.abrir();
+                SqlCommand da = new SqlCommand("Select idUsuario from Usuarios", CONEXIONMAESTRA.conectar);
+                Iduser = Convert.ToInt32(da.ExecuteScalar());
+                CONEXIONMAESTRA.cerrar();
+                Indicador = "Correcto";
+
+
+            }catch (Exception ex)
+            {
+
+                Indicador = "Incorrecto";
+
+
+            }finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+        }
+
+        public void validarUsuarios(Lusuario parametros, ref int id)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+
+                SqlCommand cmd = new SqlCommand("validar_usuario", CONEXIONMAESTRA.conectar);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@password", parametros.Password);
+                cmd.Parameters.AddWithValue("@login", parametros.Login);
+
+                id = Convert.ToInt32(cmd.ExecuteScalar());
+
+
+            }
+            catch (Exception ex)
+            {
+
+                id = 0;
+
+
+            }finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+        }
+
     }
 }
