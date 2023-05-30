@@ -176,7 +176,7 @@ namespace ORUSCURSO.Presentacion
 
             funcion.validarUsuarios(parametros, ref Idusuario);
 
-
+            
             if(Idusuario > 0)
             {
 

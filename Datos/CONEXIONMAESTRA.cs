@@ -8,7 +8,7 @@ namespace ORUSCURSO.Datos
 {
    public class CONEXIONMAESTRA
     {
-        public static string conexion = @"Data source=ORBE-SISTEMAS1; Initial Catalog=ORUS369; Integrated Security=true";
+        public static string conexion = Convert.ToString(Logica.Desencryptacion.checkServer());
         public static SqlConnection conectar = new SqlConnection(conexion);
         public static void abrir()
         {

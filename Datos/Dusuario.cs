@@ -93,15 +93,12 @@ namespace ORUSCURSO.Datos
                 Indicador = "Correcto";
 
 
-            }catch (Exception ex)
+            }catch (Exception)
             {
 
                 Indicador = "Incorrecto";
 
 
-            }finally
-            {
-                CONEXIONMAESTRA.cerrar();
             }
         }
 

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using ORUSCURSO.Logica;
 
 namespace ORUSCURSO.Datos
 {
@@ -30,6 +30,29 @@ namespace ORUSCURSO.Datos
                 CONEXIONMAESTRA.cerrar();
             }
             
+        }
+
+        public bool Insertar_Modulos(Lmodulos parametros)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+                SqlCommand cmd = new SqlCommand("insertar_Modulos", CONEXIONMAESTRA.conectar);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Modulo", parametros.Modulo);
+                cmd.ExecuteNonQuery();
+                return true;
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace); 
+                return false;
+            }
+            finally
+            {
+                CONEXIONMAESTRA.cerrar() ;  
+            }
+            
+
         }
     }
 }
