@@ -81,6 +81,99 @@ namespace ORUSCURSO.Datos
             }
         }
 
+        public bool eliminar_Usuarios(Lusuario parametros)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+                SqlCommand cmd = new SqlCommand("eliminar_usuarios", CONEXIONMAESTRA.conectar);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idusuario", parametros.IdUsuario);
+                cmd.Parameters.AddWithValue("@login", parametros.Login);
+
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+
+        }
+        public bool restaurar_usuario(Lusuario parametros)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+                SqlCommand cmd = new SqlCommand("restaurar_usuario", CONEXIONMAESTRA.conectar);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idusuario", parametros.IdUsuario);
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+
+        }
+        public bool editar_Usuarios(Lusuario parametros)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+                SqlCommand cmd = new SqlCommand("editar_Usuarios", CONEXIONMAESTRA.conectar);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idusuario", parametros.IdUsuario);
+                cmd.Parameters.AddWithValue("@nombres", parametros.Nombre);
+                cmd.Parameters.AddWithValue("@Login", parametros.Login);
+                cmd.Parameters.AddWithValue("@Password", parametros.Password);
+                cmd.Parameters.AddWithValue("@Icono", parametros.Icono);
+
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+
+        }
+        public void buscar_Usuarios(ref DataTable dt, string buscador)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+                SqlDataAdapter da = new SqlDataAdapter("buscar_usuarios", CONEXIONMAESTRA.conectar);
+                da.SelectCommand.CommandType = CommandType.StoredProcedure;
+                da.SelectCommand.Parameters.AddWithValue("@buscador", buscador);
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
+            finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+        }
+
         public void VerificarUsuarios(ref string Indicador)
         {
             try

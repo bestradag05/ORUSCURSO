@@ -81,14 +81,13 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
                 
                 parametros.IdModulo = idModulo;
                 parametros.IdUsuario = idUsuario;
-                if(funcion.Insertar_Permisos(parametros) == true)
-                {
-                    MessageBox.Show("!LISTO! RECUERDA que para Iniciar Sesión tu Usuario es: " + txtusuario.Text + " y tu Contraseña es: " + txtcontraseña.Text, "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Dispose();
-                    Login frm = new Login();
-                    frm.ShowDialog();   
-                }
+                funcion.Insertar_Permisos(parametros);
+                
             }
+            MessageBox.Show("!LISTO! RECUERDA que para Iniciar Sesión tu Usuario es: " + txtusuario.Text + " y tu Contraseña es: " + txtcontraseña.Text, "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Dispose();
+            Login frm = new Login();
+            frm.ShowDialog();
         }
 
 

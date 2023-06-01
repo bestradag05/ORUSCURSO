@@ -43,6 +43,7 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
             centrarPaneles();
             Reemplazar();
             comprobar_si_ya_hay_servidor_instalado_SQL_EXPRESS();
+           
         }
 
         private void centrarPaneles()
@@ -84,7 +85,7 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
             SqlConnection myConn = new SqlConnection("Data source =" + txtservidor.Text + ";Initial catalog=master;Integrated Security=True");
             str = txtEliminarBase.Text;
             SqlCommand myComand = new SqlCommand(str, myConn);
-
+            
             try
             {
                 myConn.Open();
@@ -106,13 +107,14 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
 
         private void ejecutar_scryt_crearBase_comprobacion_de_inicio()
         {
-
+            
             SqlConnection cnn = new SqlConnection("Server=" + txtservidor.Text + "; " + "database=master; integrated security=yes");
             string s = "CREATE DATABASE " + TXTbasededatos.Text;
             SqlCommand cmd = new SqlCommand(s, cnn);
+         
             try
             {
-                cnn.Open();
+                cnn.Open(); 
                 cmd.ExecuteNonQuery();
                 SavetoXML(aes.Encrypt("Data Source=" + txtservidor.Text + ";Initial Catalog=" + TXTbasededatos.Text + ";Integrated Security=True", Desencryptacion.appPwdUnique, int.Parse("256")));
                 EjecutarScript();
@@ -123,9 +125,9 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
                 panel4.Visible = false;
                 timer3.Start();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-
+                MessageBox.Show(e.StackTrace);
             }
         }
 

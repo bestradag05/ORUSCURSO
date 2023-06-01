@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ORUSCURSO.Datos;
+using ORUSCURSO.Logica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,11 +17,55 @@ namespace ORUSCURSO.Presentacion
         {
             InitializeComponent();
         }
-
+        public int Idusuarios;
+        public string LoginV;
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
             panelBienvenida.Dock = DockStyle.Fill;
-            
+            validarPermisos();
+
+
+        }
+
+        private void validarPermisos()
+        {
+            DataTable dt = new DataTable();
+            Dpermisos funcion = new Dpermisos();
+            Lpermisos parametros = new Lpermisos();
+            parametros.IdUsuario = Idusuarios;
+            funcion.mostrar_Permisos(ref dt, parametros);
+            btnConsultas.Enabled = false;
+            btnPersonal.Enabled = false;
+            btnRegistro.Enabled = false;
+            btnUsuarios.Enabled = false;
+            btnRestaurar.Enabled = false;
+            btnRespaldos.Enabled = false;
+
+            foreach(DataRow rowPermisos in dt.Rows)
+            {
+                string Modulo = Convert.ToString(rowPermisos["Modulo"]);
+                if(Modulo=="PrePlanilla")
+                {
+                    btnConsultas.Enabled = true;
+
+                }
+                if (Modulo == "Usuario")
+                {
+                    btnUsuarios.Enabled = true;
+                    btnRegistro.Enabled = true;
+
+                }
+                if (Modulo == "Personal")
+                {
+                    btnPersonal.Enabled = true;
+                   
+                }
+                if (Modulo == "Respaldo")
+                {
+                    btnRespaldos.Enabled = true;
+                    btnRestaurar.Enabled = true;
+                }
+            }
         }
 
         private void btnConsultas_Click(object sender, EventArgs e)

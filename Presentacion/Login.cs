@@ -128,7 +128,7 @@ namespace ORUSCURSO.Presentacion
                     flowLayoutPanel2.Controls.Add(p1);
 
 
-                    b.Click += mieventoLabel;
+                   
                     I1.Click += miEventoImagen;
 
                 }
@@ -143,17 +143,10 @@ namespace ORUSCURSO.Presentacion
         private void miEventoImagen(object sender, EventArgs e)
         {
             Usuario = Convert.ToString(((PictureBox)sender).Tag);
+            Icono.Image = ((PictureBox)sender).Image;
             MostrarPanelPass();
         }
 
-        private void mieventoLabel(object sender, EventArgs e)
-        {
-            Usuario = ((Label)sender).Text;
-            MostrarPanelPass();
-
-
-
-        }
 
         private void MostrarPanelPass()
         {
@@ -182,6 +175,9 @@ namespace ORUSCURSO.Presentacion
 
                 Dispose();
                 MenuPrincipal frm = new MenuPrincipal();
+                frm.Idusuarios = Idusuario ;
+                frm.LoginV = Usuario;
+                frm.Icono.Image = Icono.Image;
                 frm.ShowDialog();
 
             }

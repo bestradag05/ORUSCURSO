@@ -70,11 +70,11 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.datalistadoModulos = new System.Windows.Forms.DataGridView();
-            this.Marcar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dlg = new System.Windows.Forms.OpenFileDialog();
+            this.datalistadoModulos = new System.Windows.Forms.DataGridView();
+            this.Marcar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -119,7 +119,7 @@
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(988, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(113, 65);
             this.panel2.TabIndex = 11;
@@ -143,7 +143,7 @@
             // 
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel11.Location = new System.Drawing.Point(105, 11);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(8, 43);
             this.panel11.TabIndex = 6;
@@ -152,7 +152,7 @@
             // 
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel7.Location = new System.Drawing.Point(0, 54);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(113, 11);
             this.panel7.TabIndex = 5;
@@ -161,7 +161,7 @@
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(113, 11);
             this.panel4.TabIndex = 4;
@@ -220,6 +220,7 @@
             this.datalistadoUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.datalistadoUsuarios.Size = new System.Drawing.Size(1101, 864);
             this.datalistadoUsuarios.TabIndex = 2;
+            this.datalistadoUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoUsuarios_CellClick);
             // 
             // Eliminar
             // 
@@ -260,7 +261,7 @@
             this.panelRegistro.Controls.Add(this.panel6);
             this.panelRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelRegistro.Location = new System.Drawing.Point(78, 111);
-            this.panelRegistro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelRegistro.Margin = new System.Windows.Forms.Padding(2);
             this.panelRegistro.Name = "panelRegistro";
             this.panelRegistro.Size = new System.Drawing.Size(960, 621);
             this.panelRegistro.TabIndex = 3;
@@ -274,10 +275,10 @@
             this.panelIcono.Controls.Add(this.agregarIconoPc);
             this.panelIcono.Controls.Add(this.flowLayoutPanel2);
             this.panelIcono.Controls.Add(this.flowLayoutPanel3);
-            this.panelIcono.Location = new System.Drawing.Point(285, 42);
-            this.panelIcono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelIcono.Location = new System.Drawing.Point(622, 216);
+            this.panelIcono.Margin = new System.Windows.Forms.Padding(2);
             this.panelIcono.Name = "panelIcono";
-            this.panelIcono.Size = new System.Drawing.Size(620, 577);
+            this.panelIcono.Size = new System.Drawing.Size(283, 403);
             this.panelIcono.TabIndex = 14;
             this.panelIcono.Visible = false;
             this.panelIcono.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
@@ -287,7 +288,7 @@
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(265, 443);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(90, 41);
             this.button5.TabIndex = 7;
@@ -299,7 +300,7 @@
             // 
             this.agregarIconoPc.Image = global::ORUSCURSO.Properties.Resources.foto__1_;
             this.agregarIconoPc.Location = new System.Drawing.Point(94, 432);
-            this.agregarIconoPc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.agregarIconoPc.Margin = new System.Windows.Forms.Padding(2);
             this.agregarIconoPc.Name = "agregarIconoPc";
             this.agregarIconoPc.Size = new System.Drawing.Size(146, 175);
             this.agregarIconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -314,7 +315,7 @@
             this.flowLayoutPanel2.Controls.Add(this.pictureBox5);
             this.flowLayoutPanel2.Controls.Add(this.pictureBox6);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(90, 37);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(603, 177);
             this.flowLayoutPanel2.TabIndex = 0;
@@ -323,7 +324,7 @@
             // 
             this.pictureBox3.Image = global::ORUSCURSO.Properties.Resources.Trinaranja;
             this.pictureBox3.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(146, 175);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -335,7 +336,7 @@
             // 
             this.pictureBox4.Image = global::ORUSCURSO.Properties.Resources.palanca_de_mando;
             this.pictureBox4.Location = new System.Drawing.Point(152, 2);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(146, 175);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -347,7 +348,7 @@
             // 
             this.pictureBox5.Image = global::ORUSCURSO.Properties.Resources.nuclear;
             this.pictureBox5.Location = new System.Drawing.Point(302, 2);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(146, 175);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -359,7 +360,7 @@
             // 
             this.pictureBox6.Image = global::ORUSCURSO.Properties.Resources.fuego__1_;
             this.pictureBox6.Location = new System.Drawing.Point(452, 2);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(146, 175);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -374,7 +375,7 @@
             this.flowLayoutPanel3.Controls.Add(this.pictureBox9);
             this.flowLayoutPanel3.Controls.Add(this.pictureBox10);
             this.flowLayoutPanel3.Location = new System.Drawing.Point(92, 239);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(603, 177);
             this.flowLayoutPanel3.TabIndex = 4;
@@ -383,7 +384,7 @@
             // 
             this.pictureBox7.Image = global::ORUSCURSO.Properties.Resources.extraterrestre;
             this.pictureBox7.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(146, 175);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -395,7 +396,7 @@
             // 
             this.pictureBox8.Image = global::ORUSCURSO.Properties.Resources.comenzar;
             this.pictureBox8.Location = new System.Drawing.Point(152, 2);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(146, 175);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -407,7 +408,7 @@
             // 
             this.pictureBox9.Image = global::ORUSCURSO.Properties.Resources.animal;
             this.pictureBox9.Location = new System.Drawing.Point(302, 2);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(146, 175);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -419,7 +420,7 @@
             // 
             this.pictureBox10.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
             this.pictureBox10.Location = new System.Drawing.Point(452, 2);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(146, 175);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -443,7 +444,7 @@
             // Icono
             // 
             this.Icono.Location = new System.Drawing.Point(445, 17);
-            this.Icono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icono.Margin = new System.Windows.Forms.Padding(2);
             this.Icono.Name = "Icono";
             this.Icono.Size = new System.Drawing.Size(143, 127);
             this.Icono.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -457,7 +458,7 @@
             this.flowLayoutPanel1.Controls.Add(this.btnActualizar);
             this.flowLayoutPanel1.Controls.Add(this.btnVolver);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(107, 503);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(354, 97);
             this.flowLayoutPanel1.TabIndex = 11;
@@ -472,7 +473,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
             this.btnGuardar.Location = new System.Drawing.Point(2, 2);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(110, 68);
             this.btnGuardar.TabIndex = 0;
@@ -490,12 +491,13 @@
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
             this.btnActualizar.Location = new System.Drawing.Point(116, 2);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(110, 68);
             this.btnActualizar.TabIndex = 1;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnVolver
             // 
@@ -507,7 +509,7 @@
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.ForeColor = System.Drawing.Color.White;
             this.btnVolver.Location = new System.Drawing.Point(230, 2);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(110, 68);
             this.btnVolver.TabIndex = 2;
@@ -552,7 +554,7 @@
             // 
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtContraseña.Location = new System.Drawing.Point(159, 163);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseña.MaxLength = 6;
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(122, 26);
@@ -573,7 +575,7 @@
             // 
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUsuario.Location = new System.Drawing.Point(160, 124);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(155, 26);
             this.txtUsuario.TabIndex = 3;
@@ -592,7 +594,7 @@
             // 
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNombre.Location = new System.Drawing.Point(160, 73);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(244, 26);
             this.txtNombre.TabIndex = 1;
@@ -615,38 +617,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(325, 213);
             this.panel6.TabIndex = 615;
-            // 
-            // datalistadoModulos
-            // 
-            this.datalistadoModulos.AllowUserToAddRows = false;
-            this.datalistadoModulos.AllowUserToDeleteRows = false;
-            this.datalistadoModulos.AllowUserToResizeRows = false;
-            this.datalistadoModulos.BackgroundColor = System.Drawing.Color.White;
-            this.datalistadoModulos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.datalistadoModulos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.datalistadoModulos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.datalistadoModulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datalistadoModulos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Marcar});
-            this.datalistadoModulos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoModulos.EnableHeadersVisualStyles = false;
-            this.datalistadoModulos.Location = new System.Drawing.Point(0, 0);
-            this.datalistadoModulos.Name = "datalistadoModulos";
-            this.datalistadoModulos.RowHeadersVisible = false;
-            this.datalistadoModulos.RowHeadersWidth = 51;
-            this.datalistadoModulos.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.datalistadoModulos.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.datalistadoModulos.RowTemplate.Height = 30;
-            this.datalistadoModulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoModulos.Size = new System.Drawing.Size(325, 213);
-            this.datalistadoModulos.TabIndex = 619;
-            // 
-            // Marcar
-            // 
-            this.Marcar.HeaderText = "Marcar";
-            this.Marcar.MinimumWidth = 6;
-            this.Marcar.Name = "Marcar";
-            this.Marcar.Width = 125;
             // 
             // dataGridViewImageColumn1
             // 
@@ -672,6 +642,35 @@
             // 
             this.dlg.FileName = "openFileDialog1";
             // 
+            // datalistadoModulos
+            // 
+            this.datalistadoModulos.AllowUserToAddRows = false;
+            this.datalistadoModulos.AllowUserToDeleteRows = false;
+            this.datalistadoModulos.AllowUserToResizeRows = false;
+            this.datalistadoModulos.BackgroundColor = System.Drawing.Color.White;
+            this.datalistadoModulos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.datalistadoModulos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.datalistadoModulos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.datalistadoModulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datalistadoModulos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Marcar});
+            this.datalistadoModulos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.datalistadoModulos.EnableHeadersVisualStyles = false;
+            this.datalistadoModulos.Location = new System.Drawing.Point(0, 0);
+            this.datalistadoModulos.Name = "datalistadoModulos";
+            this.datalistadoModulos.RowHeadersVisible = false;
+            this.datalistadoModulos.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.datalistadoModulos.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.datalistadoModulos.RowTemplate.Height = 30;
+            this.datalistadoModulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.datalistadoModulos.Size = new System.Drawing.Size(325, 213);
+            this.datalistadoModulos.TabIndex = 620;
+            // 
+            // Marcar
+            // 
+            this.Marcar.HeaderText = "Marcar";
+            this.Marcar.Name = "Marcar";
+            // 
             // CtlUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -679,7 +678,7 @@
             this.Controls.Add(this.panelRegistro);
             this.Controls.Add(this.datalistadoUsuarios);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CtlUsuarios";
             this.Size = new System.Drawing.Size(1101, 929);
             this.Load += new System.EventHandler(this.CtlUsuarios_Load);
