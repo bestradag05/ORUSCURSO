@@ -117,6 +117,12 @@
     <Compile Include="Presentacion\Personal.Designer.cs">
       <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Preplanilla.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Preplanilla.Designer.cs">
+      <DependentUpon>Preplanilla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Reportes\ReportAsistencias.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Personal.resx">
       <DependentUpon>Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Preplanilla.resx">
+      <DependentUpon>Preplanilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Reportes\ReportAsistencias.resx">
       <DependentUpon>ReportAsistencias.cs</DependentUpon>

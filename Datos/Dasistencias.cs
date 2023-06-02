@@ -89,5 +89,30 @@ namespace ORUSCURSO.Datos
                 CONEXIONMAESTRA.cerrar();
             }
         }
+
+
+        public void mostrar_asistencias_diarias(ref DataTable dt, DateTime desde, DateTime hasta, int semana)
+        {
+            try
+            {
+                CONEXIONMAESTRA.abrir();
+                SqlDataAdapter da = new SqlDataAdapter("mostrar_asistencias_diarias", CONEXIONMAESTRA.conectar);
+                da.SelectCommand.CommandType = CommandType.StoredProcedure;
+                da.SelectCommand.Parameters.AddWithValue("@desde", desde);
+                da.SelectCommand.Parameters.AddWithValue("@hasta", hasta);
+                da.SelectCommand.Parameters.AddWithValue("@semana", semana);
+                da.Fill(dt);
+
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                CONEXIONMAESTRA.cerrar();
+            }
+            
+        }
     }
 }
