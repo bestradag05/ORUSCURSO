@@ -102,22 +102,25 @@ namespace ORUSCURSO.Presentacion.Reportes
             tableGroup4.Groupings.Add(new Telerik.Reporting.Grouping(null));
             tableGroup4.Name = "detailTableGroup";
             this.table1.RowGroups.Add(tableGroup4);
-            this.table1.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(12.5D), Telerik.Reporting.Drawing.Unit.Cm(3.73D));
+            this.table1.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(12.501D), Telerik.Reporting.Drawing.Unit.Cm(3.73D));
             // 
             // textBox3
             // 
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(4.167D), Telerik.Reporting.Drawing.Unit.Cm(1.865D));
+            this.textBox3.Value = "=Fields.Nombres";
             // 
             // textBox5
             // 
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(4.167D), Telerik.Reporting.Drawing.Unit.Cm(1.865D));
+            this.textBox5.Value = "=Sum(Fields.Horas)";
             // 
             // textBox7
             // 
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(4.167D), Telerik.Reporting.Drawing.Unit.Cm(1.865D));
+            this.textBox7.Value = "=Fields.SueldoPorHora";
             // 
             // pageFooterSection1
             // 

@@ -32,6 +32,7 @@ namespace ORUSCURSO.Presentacion
             funcion.mostrar_asistencias_diarias(ref dt, txtdesde.Value, txthasta.Value, Convert.ToInt32(lblnumerosemana.Text));
             rpt.DataSource = dt;
             rpt.table1.DataSource = dt;
+            rpt.SkipBlankPages = false;
 
 
             reportViewer1.Report = rpt;
