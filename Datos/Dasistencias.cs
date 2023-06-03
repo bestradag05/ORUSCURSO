@@ -13,21 +13,21 @@ namespace ORUSCURSO.Datos
     public  class Dasistencias
     {
 
-        public void buscarAsistenciaId(ref DataTable dt, int IdPersonal)
+        public void buscarAsistenciaId(ref DataTable dt, int Idpersonal)
         {
             try
             {
                 CONEXIONMAESTRA.abrir();
-                SqlDataAdapter da = new SqlDataAdapter("buscarAsistenciaId", CONEXIONMAESTRA.conectar);
+                SqlDataAdapter da = new SqlDataAdapter("buscarAsistenciasId", CONEXIONMAESTRA.conectar);
                 da.SelectCommand.CommandType = CommandType.StoredProcedure;
-                da.SelectCommand.Parameters.AddWithValue("@Idpersonal", IdPersonal);
+                da.SelectCommand.Parameters.AddWithValue("@Idpersonal", Idpersonal);
                 da.Fill(dt);
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.StackTrace);
-                throw;
+                
             }
             finally
             {
@@ -40,14 +40,14 @@ namespace ORUSCURSO.Datos
             try
             {
                 CONEXIONMAESTRA.abrir();
-                SqlCommand cmd = new SqlCommand("Insertar_Asistencias", CONEXIONMAESTRA.conectar);
+                SqlCommand cmd = new SqlCommand("Insertar_ASISTENCIAS", CONEXIONMAESTRA.conectar);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Id_personal", parametros.Id_personal);
                 cmd.Parameters.AddWithValue("@Fecha_entrada", parametros.Fecha_entrada);
                 cmd.Parameters.AddWithValue("@Fecha_salida", parametros.Fecha_salida);
                 cmd.Parameters.AddWithValue("@Estado", parametros.Estado);
                 cmd.Parameters.AddWithValue("@Horas", parametros.Horas);
-                cmd.Parameters.AddWithValue("@Observaciones", parametros.Observacion);
+                cmd.Parameters.AddWithValue("@Observacion", parametros.Observacion);
                 cmd.ExecuteNonQuery();
                 return true;
 

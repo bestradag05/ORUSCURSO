@@ -61,7 +61,7 @@
             this.panel1.Controls.Add(this.Label66);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1340, 50);
             this.panel1.TabIndex = 0;
@@ -76,12 +76,13 @@
             this.BtnIniciarSecion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnIniciarSecion.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIniciarSecion.Location = new System.Drawing.Point(1143, 0);
-            this.BtnIniciarSecion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnIniciarSecion.Margin = new System.Windows.Forms.Padding(2);
             this.BtnIniciarSecion.Name = "BtnIniciarSecion";
             this.BtnIniciarSecion.Size = new System.Drawing.Size(197, 50);
             this.BtnIniciarSecion.TabIndex = 601;
             this.BtnIniciarSecion.Text = "Iniciar Secion";
             this.BtnIniciarSecion.UseVisualStyleBackColor = false;
+            this.BtnIniciarSecion.Click += new System.EventHandler(this.BtnIniciarSecion_Click);
             // 
             // Label66
             // 
@@ -187,7 +188,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(583, 244);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -225,7 +226,7 @@
             this.panelRegistro.Controls.Add(this.texto);
             this.panelRegistro.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelRegistro.Location = new System.Drawing.Point(470, 96);
-            this.panelRegistro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelRegistro.Margin = new System.Windows.Forms.Padding(2);
             this.panelRegistro.Name = "panelRegistro";
             this.panelRegistro.Size = new System.Drawing.Size(583, 692);
             this.panelRegistro.TabIndex = 1;
@@ -261,7 +262,7 @@
             this.panelObservacion.Controls.Add(this.lblObservaciones);
             this.panelObservacion.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelObservacion.Location = new System.Drawing.Point(156, 96);
-            this.panelObservacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelObservacion.Margin = new System.Windows.Forms.Padding(2);
             this.panelObservacion.Name = "panelObservacion";
             this.panelObservacion.Size = new System.Drawing.Size(249, 500);
             this.panelObservacion.TabIndex = 2;
@@ -295,7 +296,7 @@
             this.txtObservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtObservacion.ForeColor = System.Drawing.Color.White;
             this.txtObservacion.Location = new System.Drawing.Point(0, 27);
-            this.txtObservacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtObservacion.Margin = new System.Windows.Forms.Padding(2);
             this.txtObservacion.Name = "txtObservacion";
             this.txtObservacion.Size = new System.Drawing.Size(249, 154);
             this.txtObservacion.TabIndex = 1;
@@ -331,7 +332,7 @@
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TomarAsistencias";
             this.Text = " Tomar Asistencias";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

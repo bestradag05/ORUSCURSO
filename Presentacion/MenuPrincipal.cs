@@ -91,5 +91,12 @@ namespace ORUSCURSO.Presentacion
             CtlUsuarios control = new CtlUsuarios();    
             PanelPadre.Controls.Add(control);
         }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            Dispose();
+            TomarAsistencias frm = new TomarAsistencias();
+            frm.ShowDialog();
+        }
     }
 }
