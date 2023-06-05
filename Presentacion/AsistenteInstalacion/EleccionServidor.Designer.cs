@@ -53,7 +53,7 @@
             this.panel1.Controls.Add(this.PictureBox7);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1515, 111);
             this.panel1.TabIndex = 621;
@@ -75,7 +75,7 @@
             // 
             this.PictureBox7.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
             this.PictureBox7.Location = new System.Drawing.Point(147, 10);
-            this.PictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(95, 92);
             this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -93,7 +93,7 @@
             this.Panel4.Controls.Add(this.panel3);
             this.Panel4.Controls.Add(this.PictureBox1);
             this.Panel4.Location = new System.Drawing.Point(23, 154);
-            this.Panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel4.Margin = new System.Windows.Forms.Padding(4);
             this.Panel4.Name = "Panel4";
             this.Panel4.Size = new System.Drawing.Size(1463, 539);
             this.Panel4.TabIndex = 622;
@@ -120,7 +120,7 @@
             this.BtnRemoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.BtnRemoto.ForeColor = System.Drawing.Color.White;
             this.BtnRemoto.Location = new System.Drawing.Point(71, 390);
-            this.BtnRemoto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnRemoto.Margin = new System.Windows.Forms.Padding(4);
             this.BtnRemoto.Name = "BtnRemoto";
             this.BtnRemoto.Size = new System.Drawing.Size(463, 103);
             this.BtnRemoto.TabIndex = 609;
@@ -137,7 +137,7 @@
             this.BtnPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.BtnPrincipal.ForeColor = System.Drawing.Color.White;
             this.BtnPrincipal.Location = new System.Drawing.Point(71, 139);
-            this.BtnPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnPrincipal.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPrincipal.Name = "BtnPrincipal";
             this.BtnPrincipal.Size = new System.Drawing.Size(463, 103);
             this.BtnPrincipal.TabIndex = 608;
@@ -175,7 +175,7 @@
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Location = new System.Drawing.Point(893, 112);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(4, 166);
             this.panel2.TabIndex = 606;
@@ -184,7 +184,7 @@
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.Location = new System.Drawing.Point(1015, 358);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(4, 171);
             this.panel3.TabIndex = 607;
@@ -193,7 +193,7 @@
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
             this.PictureBox1.Location = new System.Drawing.Point(459, 112);
-            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(629, 417);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -208,10 +208,10 @@
             this.ClientSize = new System.Drawing.Size(1515, 1055);
             this.Controls.Add(this.Panel4);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EleccionServidor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EleccionServidor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

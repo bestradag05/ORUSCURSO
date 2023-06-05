@@ -127,7 +127,11 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.StackTrace);
+                btnInstalarServidor.Visible = true;
+                panel6.Visible = true;
+                panel4.Visible = false;
+                panel4.Dock = DockStyle.None;
+                lblbuscador
             }
         }
 

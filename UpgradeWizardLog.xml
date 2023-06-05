@@ -2,28 +2,30 @@
 <?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
 <log>
   <event>Get project references.</event>
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.csproj" />
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="app.config" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\app.config" />
-  <event action="Analyze" type="Success" name="ConexionRemota.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\AsistenteInstalacion\ConexionRemota.resx" />
-  <event action="Analyze" type="Success" name="EleccionServidor.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\AsistenteInstalacion\EleccionServidor.resx" />
-  <event action="Analyze" type="Success" name="InstalacionBd.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\AsistenteInstalacion\InstalacionBd.resx" />
-  <event action="Analyze" type="Success" name="UsuariosPrincipal.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\AsistenteInstalacion\UsuariosPrincipal.resx" />
-  <event action="Analyze" type="Success" name="CtlUsuarios.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\CtlUsuarios.resx" />
-  <event action="Analyze" type="Success" name="Login.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\Login.resx" />
-  <event action="Analyze" type="Success" name="MenuPrincipal.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\MenuPrincipal.resx" />
-  <event action="Analyze" type="Success" name="Personal.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\Personal.resx" />
-  <event action="Analyze" type="Success" name="TomarAsistencias.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Presentacion\TomarAsistencias.resx" />
-  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\Properties\Resources.resx" />
-  <event action="Analyze" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.csproj" />
-  <event action="Analyze" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.sln" />
-  <event action="Backup" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.csproj" />
-  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.csproj" />
-  <event action="Upgrade" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.csproj" />
-  <event action="Upgrade" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Source\Repos\bestradag05\ORUSCURSO\ORUSCURSO.sln" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\app.config" />
+  <event action="Analyze" type="Success" name="ConexionRemota.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\AsistenteInstalacion\ConexionRemota.resx" />
+  <event action="Analyze" type="Success" name="EleccionServidor.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\AsistenteInstalacion\EleccionServidor.resx" />
+  <event action="Analyze" type="Success" name="InstalacionBd.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\AsistenteInstalacion\InstalacionBd.resx" />
+  <event action="Analyze" type="Success" name="UsuariosPrincipal.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\AsistenteInstalacion\UsuariosPrincipal.resx" />
+  <event action="Analyze" type="Success" name="CtlUsuarios.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\CtlUsuarios.resx" />
+  <event action="Analyze" type="Success" name="Login.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\Login.resx" />
+  <event action="Analyze" type="Success" name="MenuPrincipal.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\MenuPrincipal.resx" />
+  <event action="Analyze" type="Success" name="Personal.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\Personal.resx" />
+  <event action="Analyze" type="Success" name="Preplanilla.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\Preplanilla.resx" />
+  <event action="Analyze" type="Success" name="ReportAsistencias.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\Reportes\ReportAsistencias.resx" />
+  <event action="Analyze" type="Success" name="TomarAsistencias.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Presentacion\TomarAsistencias.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.csproj" />
+  <event action="Analyze" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.sln" />
+  <event action="Backup" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.csproj" />
+  <event action="Upgrade" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.csproj" />
+  <event action="Upgrade" type="Success" name="ORUSCURSO" path="C:\Users\Bryan\Documents\Cursos de C#\ORUSCURSO\ORUSCURSO.sln" />
 </log>

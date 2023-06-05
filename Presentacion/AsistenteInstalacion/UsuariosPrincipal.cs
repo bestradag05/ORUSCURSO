@@ -60,12 +60,19 @@ namespace ORUSCURSO.Presentacion.AsistenteInstalacion
 
             if (funcion.InsertarUsusarios(parametros) == true)
             {
+                InsertarCopiasBd();
                 Insertar_Modulos();
                 ObtenerIdUsuario();
                 insertarPermisos();
 
             }
 
+        }
+
+        private void InsertarCopiasBd()
+        {
+            Dcopiasbd funcion=new Dcopiasbd();
+            funcion.InsertarCopiasBd();
         }
 
         private void insertarPermisos()
