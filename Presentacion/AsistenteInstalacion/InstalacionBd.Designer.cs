@@ -105,19 +105,17 @@
             this.panel1.Controls.Add(this.Label66);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1821, 92);
+            this.panel1.Size = new System.Drawing.Size(1366, 75);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
-            this.pictureBox1.Location = new System.Drawing.Point(135, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(101, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(82, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 602;
             this.pictureBox1.TabStop = false;
@@ -129,9 +127,8 @@
             this.Label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label66.ForeColor = System.Drawing.Color.White;
             this.Label66.Location = new System.Drawing.Point(0, 0);
-            this.Label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label66.Name = "Label66";
-            this.Label66.Size = new System.Drawing.Size(135, 92);
+            this.Label66.Size = new System.Drawing.Size(101, 75);
             this.Label66.TabIndex = 601;
             this.Label66.Text = "Orus 369";
             this.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,20 +150,18 @@
             this.panel8.Controls.Add(this.lblBasededatos);
             this.panel8.Controls.Add(this.Label6);
             this.panel8.Controls.Add(this.Label8);
-            this.panel8.Location = new System.Drawing.Point(785, 140);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4);
+            this.panel8.Location = new System.Drawing.Point(589, 114);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(981, 742);
+            this.panel8.Size = new System.Drawing.Size(736, 603);
             this.panel8.TabIndex = 624;
             this.panel8.Visible = false;
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(192, 52);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(4);
+            this.txtusuario.Location = new System.Drawing.Point(144, 42);
             this.txtusuario.MaxLength = 15;
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(177, 22);
+            this.txtusuario.Size = new System.Drawing.Size(134, 20);
             this.txtusuario.TabIndex = 635;
             this.txtusuario.Text = "orus";
             // 
@@ -174,10 +169,9 @@
             // 
             this.Label15.AutoSize = true;
             this.Label15.ForeColor = System.Drawing.Color.White;
-            this.Label15.Location = new System.Drawing.Point(123, 55);
-            this.Label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label15.Location = new System.Drawing.Point(92, 45);
             this.Label15.Name = "Label15";
-            this.Label15.Size = new System.Drawing.Size(57, 16);
+            this.Label15.Size = new System.Drawing.Size(46, 13);
             this.Label15.TabIndex = 634;
             this.Label15.Text = "Usuario:";
             // 
@@ -185,11 +179,9 @@
             // 
             this.GroupBox6.Controls.Add(this.txtCrearUsuarioDb);
             this.GroupBox6.ForeColor = System.Drawing.Color.White;
-            this.GroupBox6.Location = new System.Drawing.Point(653, 234);
-            this.GroupBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.GroupBox6.Location = new System.Drawing.Point(490, 190);
             this.GroupBox6.Name = "GroupBox6";
-            this.GroupBox6.Padding = new System.Windows.Forms.Padding(4);
-            this.GroupBox6.Size = new System.Drawing.Size(311, 374);
+            this.GroupBox6.Size = new System.Drawing.Size(233, 304);
             this.GroupBox6.TabIndex = 632;
             this.GroupBox6.TabStop = false;
             this.GroupBox6.Text = "Servira para Crear un Usuario para el Servidor - NO TOCAR";
@@ -197,21 +189,19 @@
             // txtCrearUsuarioDb
             // 
             this.txtCrearUsuarioDb.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtCrearUsuarioDb.Location = new System.Drawing.Point(4, 48);
-            this.txtCrearUsuarioDb.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCrearUsuarioDb.Location = new System.Drawing.Point(3, 39);
             this.txtCrearUsuarioDb.Multiline = true;
             this.txtCrearUsuarioDb.Name = "txtCrearUsuarioDb";
-            this.txtCrearUsuarioDb.Size = new System.Drawing.Size(303, 322);
+            this.txtCrearUsuarioDb.Size = new System.Drawing.Size(227, 262);
             this.txtCrearUsuarioDb.TabIndex = 629;
             this.txtCrearUsuarioDb.Text = resources.GetString("txtCrearUsuarioDb.Text");
             // 
             // txtArgumentosini
             // 
             this.txtArgumentosini.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtArgumentosini.Location = new System.Drawing.Point(37, 455);
-            this.txtArgumentosini.Margin = new System.Windows.Forms.Padding(4);
+            this.txtArgumentosini.Location = new System.Drawing.Point(28, 370);
             this.txtArgumentosini.Name = "txtArgumentosini";
-            this.txtArgumentosini.Size = new System.Drawing.Size(593, 265);
+            this.txtArgumentosini.Size = new System.Drawing.Size(446, 216);
             this.txtArgumentosini.TabIndex = 589;
             this.txtArgumentosini.Text = resources.GetString("txtArgumentosini.Text");
             // 
@@ -227,10 +217,9 @@
             this.Panel10.Controls.Add(this.txtservidor);
             this.Panel10.Controls.Add(this.seg3);
             this.Panel10.Controls.Add(this.mil3);
-            this.Panel10.Location = new System.Drawing.Point(457, 5);
-            this.Panel10.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel10.Location = new System.Drawing.Point(343, 4);
             this.Panel10.Name = "Panel10";
-            this.Panel10.Size = new System.Drawing.Size(443, 210);
+            this.Panel10.Size = new System.Drawing.Size(332, 171);
             this.Panel10.TabIndex = 608;
             // 
             // GroupBox1
@@ -238,11 +227,9 @@
             this.GroupBox1.Controls.Add(this.txtEliminarBase);
             this.GroupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox1.ForeColor = System.Drawing.Color.White;
-            this.GroupBox1.Location = new System.Drawing.Point(4, 9);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.GroupBox1.Location = new System.Drawing.Point(3, 7);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.GroupBox1.Size = new System.Drawing.Size(421, 190);
+            this.GroupBox1.Size = new System.Drawing.Size(316, 154);
             this.GroupBox1.TabIndex = 608;
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Script para Eliminar la base de datos";
@@ -251,10 +238,9 @@
             // 
             this.txtEliminarBase.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtEliminarBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEliminarBase.Location = new System.Drawing.Point(4, 20);
-            this.txtEliminarBase.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEliminarBase.Location = new System.Drawing.Point(3, 16);
             this.txtEliminarBase.Name = "txtEliminarBase";
-            this.txtEliminarBase.Size = new System.Drawing.Size(413, 166);
+            this.txtEliminarBase.Size = new System.Drawing.Size(310, 135);
             this.txtEliminarBase.TabIndex = 589;
             this.txtEliminarBase.Text = "alter database BASEADACURSO set single_user with rollback immediate \nDROP DATABAS" +
     "E BASEADACURSO";
@@ -263,10 +249,9 @@
             // 
             this.lblRutaInstancia.AutoSize = true;
             this.lblRutaInstancia.BackColor = System.Drawing.Color.White;
-            this.lblRutaInstancia.Location = new System.Drawing.Point(192, 28);
-            this.lblRutaInstancia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRutaInstancia.Location = new System.Drawing.Point(144, 23);
             this.lblRutaInstancia.Name = "lblRutaInstancia";
-            this.lblRutaInstancia.Size = new System.Drawing.Size(102, 16);
+            this.lblRutaInstancia.Size = new System.Drawing.Size(83, 13);
             this.lblRutaInstancia.TabIndex = 605;
             this.lblRutaInstancia.Text = "lblRutaInstancia";
             // 
@@ -274,10 +259,9 @@
             // 
             this.min2.AutoSize = true;
             this.min2.ForeColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(136, 135);
-            this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.min2.Location = new System.Drawing.Point(102, 110);
             this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(21, 16);
+            this.min2.Size = new System.Drawing.Size(19, 13);
             this.min2.TabIndex = 618;
             this.min2.Text = "00";
             // 
@@ -285,10 +269,9 @@
             // 
             this.Label7.AutoSize = true;
             this.Label7.ForeColor = System.Drawing.Color.White;
-            this.Label7.Location = new System.Drawing.Point(149, 89);
-            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label7.Location = new System.Drawing.Point(112, 72);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(61, 16);
+            this.Label7.Size = new System.Drawing.Size(49, 13);
             this.Label7.TabIndex = 618;
             this.Label7.Text = "Servidor:";
             // 
@@ -296,10 +279,9 @@
             // 
             this.seg2.AutoSize = true;
             this.seg2.ForeColor = System.Drawing.Color.White;
-            this.seg2.Location = new System.Drawing.Point(169, 135);
-            this.seg2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.seg2.Location = new System.Drawing.Point(127, 110);
             this.seg2.Name = "seg2";
-            this.seg2.Size = new System.Drawing.Size(21, 16);
+            this.seg2.Size = new System.Drawing.Size(19, 13);
             this.seg2.TabIndex = 618;
             this.seg2.Text = "00";
             // 
@@ -307,10 +289,9 @@
             // 
             this.milise.AutoSize = true;
             this.milise.ForeColor = System.Drawing.Color.White;
-            this.milise.Location = new System.Drawing.Point(173, 105);
-            this.milise.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.milise.Location = new System.Drawing.Point(130, 85);
             this.milise.Name = "milise";
-            this.milise.Size = new System.Drawing.Size(21, 16);
+            this.milise.Size = new System.Drawing.Size(19, 13);
             this.milise.TabIndex = 618;
             this.milise.Text = "00";
             // 
@@ -318,10 +299,9 @@
             // 
             this.mils2.AutoSize = true;
             this.mils2.ForeColor = System.Drawing.Color.White;
-            this.mils2.Location = new System.Drawing.Point(277, 135);
-            this.mils2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.mils2.Location = new System.Drawing.Point(208, 110);
             this.mils2.Name = "mils2";
-            this.mils2.Size = new System.Drawing.Size(21, 16);
+            this.mils2.Size = new System.Drawing.Size(19, 13);
             this.mils2.TabIndex = 618;
             this.mils2.Text = "00";
             // 
@@ -329,10 +309,9 @@
             // 
             this.txtservidor.AutoSize = true;
             this.txtservidor.ForeColor = System.Drawing.Color.White;
-            this.txtservidor.Location = new System.Drawing.Point(223, 89);
-            this.txtservidor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtservidor.Location = new System.Drawing.Point(167, 72);
             this.txtservidor.Name = "txtservidor";
-            this.txtservidor.Size = new System.Drawing.Size(19, 16);
+            this.txtservidor.Size = new System.Drawing.Size(16, 13);
             this.txtservidor.TabIndex = 611;
             this.txtservidor.Text = "---";
             // 
@@ -340,10 +319,9 @@
             // 
             this.seg3.AutoSize = true;
             this.seg3.ForeColor = System.Drawing.Color.White;
-            this.seg3.Location = new System.Drawing.Point(328, 28);
-            this.seg3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.seg3.Location = new System.Drawing.Point(246, 23);
             this.seg3.Name = "seg3";
-            this.seg3.Size = new System.Drawing.Size(14, 16);
+            this.seg3.Size = new System.Drawing.Size(13, 13);
             this.seg3.TabIndex = 620;
             this.seg3.Text = "0";
             // 
@@ -351,10 +329,9 @@
             // 
             this.mil3.AutoSize = true;
             this.mil3.ForeColor = System.Drawing.Color.White;
-            this.mil3.Location = new System.Drawing.Point(369, 44);
-            this.mil3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.mil3.Location = new System.Drawing.Point(277, 36);
             this.mil3.Name = "mil3";
-            this.mil3.Size = new System.Drawing.Size(14, 16);
+            this.mil3.Size = new System.Drawing.Size(13, 13);
             this.mil3.TabIndex = 619;
             this.mil3.Text = "0";
             // 
@@ -363,11 +340,9 @@
             this.GroupBox2.Controls.Add(this.txtCrear_procedimientos);
             this.GroupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox2.ForeColor = System.Drawing.Color.White;
-            this.GroupBox2.Location = new System.Drawing.Point(37, 223);
-            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.GroupBox2.Location = new System.Drawing.Point(28, 181);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.GroupBox2.Size = new System.Drawing.Size(595, 225);
+            this.GroupBox2.Size = new System.Drawing.Size(446, 183);
             this.GroupBox2.TabIndex = 622;
             this.GroupBox2.TabStop = false;
             this.GroupBox2.Text = "PEGA TU Script para Crear las Tablas y Procedimientos";
@@ -375,47 +350,42 @@
             // txtCrear_procedimientos
             // 
             this.txtCrear_procedimientos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCrear_procedimientos.Location = new System.Drawing.Point(8, 39);
-            this.txtCrear_procedimientos.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCrear_procedimientos.Location = new System.Drawing.Point(6, 32);
             this.txtCrear_procedimientos.Name = "txtCrear_procedimientos";
-            this.txtCrear_procedimientos.Size = new System.Drawing.Size(577, 178);
+            this.txtCrear_procedimientos.Size = new System.Drawing.Size(434, 145);
             this.txtCrear_procedimientos.TabIndex = 589;
             this.txtCrear_procedimientos.Text = resources.GetString("txtCrear_procedimientos.Text");
             // 
             // txtnombre_scrypt
             // 
-            this.txtnombre_scrypt.Location = new System.Drawing.Point(192, 183);
-            this.txtnombre_scrypt.Margin = new System.Windows.Forms.Padding(4);
+            this.txtnombre_scrypt.Location = new System.Drawing.Point(144, 149);
             this.txtnombre_scrypt.Name = "txtnombre_scrypt";
-            this.txtnombre_scrypt.Size = new System.Drawing.Size(176, 22);
+            this.txtnombre_scrypt.Size = new System.Drawing.Size(133, 20);
             this.txtnombre_scrypt.TabIndex = 621;
             this.txtnombre_scrypt.Text = "ScriptORUS";
             // 
             // TXTbasededatos
             // 
-            this.TXTbasededatos.Location = new System.Drawing.Point(192, 138);
-            this.TXTbasededatos.Margin = new System.Windows.Forms.Padding(4);
+            this.TXTbasededatos.Location = new System.Drawing.Point(144, 112);
             this.TXTbasededatos.Name = "TXTbasededatos";
-            this.TXTbasededatos.Size = new System.Drawing.Size(177, 22);
+            this.TXTbasededatos.Size = new System.Drawing.Size(134, 20);
             this.TXTbasededatos.TabIndex = 621;
             this.TXTbasededatos.Text = "ORUS369";
             // 
             // lblcontraseña
             // 
-            this.lblcontraseña.Location = new System.Drawing.Point(192, 94);
-            this.lblcontraseña.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcontraseña.Location = new System.Drawing.Point(144, 76);
             this.lblcontraseña.Name = "lblcontraseña";
-            this.lblcontraseña.Size = new System.Drawing.Size(177, 22);
+            this.lblcontraseña.Size = new System.Drawing.Size(134, 20);
             this.lblcontraseña.TabIndex = 621;
             this.lblcontraseña.Text = "orus369";
             // 
             // lblnombredeservicio
             // 
-            this.lblnombredeservicio.Location = new System.Drawing.Point(192, 14);
-            this.lblnombredeservicio.Margin = new System.Windows.Forms.Padding(4);
+            this.lblnombredeservicio.Location = new System.Drawing.Point(144, 11);
             this.lblnombredeservicio.MaxLength = 15;
             this.lblnombredeservicio.Name = "lblnombredeservicio";
-            this.lblnombredeservicio.Size = new System.Drawing.Size(177, 22);
+            this.lblnombredeservicio.Size = new System.Drawing.Size(134, 20);
             this.lblnombredeservicio.TabIndex = 621;
             this.lblnombredeservicio.Text = "SQLEXPRESS";
             // 
@@ -423,10 +393,9 @@
             // 
             this.Label11.AutoSize = true;
             this.Label11.ForeColor = System.Drawing.Color.White;
-            this.Label11.Location = new System.Drawing.Point(377, 187);
-            this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label11.Location = new System.Drawing.Point(283, 152);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(30, 16);
+            this.Label11.Size = new System.Drawing.Size(27, 13);
             this.Label11.TabIndex = 618;
             this.Label11.Text = ".text";
             // 
@@ -434,10 +403,9 @@
             // 
             this.Label9.AutoSize = true;
             this.Label9.ForeColor = System.Drawing.Color.White;
-            this.Label9.Location = new System.Drawing.Point(48, 192);
-            this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label9.Location = new System.Drawing.Point(36, 156);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(119, 16);
+            this.Label9.Size = new System.Drawing.Size(95, 13);
             this.Label9.TabIndex = 618;
             this.Label9.Text = "Nombre de Scrypt:";
             // 
@@ -445,10 +413,9 @@
             // 
             this.lblBasededatos.AutoSize = true;
             this.lblBasededatos.ForeColor = System.Drawing.Color.White;
-            this.lblBasededatos.Location = new System.Drawing.Point(69, 145);
-            this.lblBasededatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBasededatos.Location = new System.Drawing.Point(52, 118);
             this.lblBasededatos.Name = "lblBasededatos";
-            this.lblBasededatos.Size = new System.Drawing.Size(98, 16);
+            this.lblBasededatos.Size = new System.Drawing.Size(78, 13);
             this.lblBasededatos.TabIndex = 618;
             this.lblBasededatos.Text = "Base de datos:";
             // 
@@ -456,10 +423,9 @@
             // 
             this.Label6.AutoSize = true;
             this.Label6.ForeColor = System.Drawing.Color.White;
-            this.Label6.Location = new System.Drawing.Point(56, 97);
-            this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label6.Location = new System.Drawing.Point(42, 79);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(108, 16);
+            this.Label6.Size = new System.Drawing.Size(88, 13);
             this.Label6.TabIndex = 618;
             this.Label6.Text = "Contraseña SQL:";
             // 
@@ -467,10 +433,9 @@
             // 
             this.Label8.AutoSize = true;
             this.Label8.ForeColor = System.Drawing.Color.White;
-            this.Label8.Location = new System.Drawing.Point(40, 17);
-            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label8.Location = new System.Drawing.Point(30, 14);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(134, 16);
+            this.Label8.Size = new System.Drawing.Size(108, 13);
             this.Label8.TabIndex = 618;
             this.Label8.Text = "Nombre de Instancia:";
             // 
@@ -499,10 +464,9 @@
             this.Panel2.Controls.Add(this.Panel4);
             this.Panel2.Controls.Add(this.Panel9);
             this.Panel2.Controls.Add(this.btnInstalarServidor);
-            this.Panel2.Location = new System.Drawing.Point(66, 145);
-            this.Panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel2.Location = new System.Drawing.Point(50, 118);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(647, 856);
+            this.Panel2.Size = new System.Drawing.Size(485, 696);
             this.Panel2.TabIndex = 625;
             // 
             // Panel4
@@ -513,10 +477,9 @@
             this.Panel4.Controls.Add(this.Label1);
             this.Panel4.Controls.Add(this.pictureBox3);
             this.Panel4.Controls.Add(this.Panel5);
-            this.Panel4.Location = new System.Drawing.Point(2, 133);
-            this.Panel4.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel4.Location = new System.Drawing.Point(2, 108);
             this.Panel4.Name = "Panel4";
-            this.Panel4.Size = new System.Drawing.Size(643, 684);
+            this.Panel4.Size = new System.Drawing.Size(482, 556);
             this.Panel4.TabIndex = 620;
             this.Panel4.Visible = false;
             // 
@@ -525,10 +488,9 @@
             this.PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(0, 378);
-            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBox2.Location = new System.Drawing.Point(0, 307);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(643, 306);
+            this.PictureBox2.Size = new System.Drawing.Size(482, 249);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox2.TabIndex = 617;
             this.PictureBox2.TabStop = false;
@@ -538,10 +500,9 @@
             this.Panel6.Controls.Add(this.Panel7);
             this.Panel6.Controls.Add(this.Label2);
             this.Panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel6.Location = new System.Drawing.Point(0, 299);
-            this.Panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel6.Location = new System.Drawing.Point(0, 243);
             this.Panel6.Name = "Panel6";
-            this.Panel6.Size = new System.Drawing.Size(643, 79);
+            this.Panel6.Size = new System.Drawing.Size(482, 64);
             this.Panel6.TabIndex = 620;
             // 
             // Panel7
@@ -552,20 +513,18 @@
             this.Panel7.Controls.Add(this.Label4);
             this.Panel7.Controls.Add(this.seg);
             this.Panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel7.Location = new System.Drawing.Point(373, 0);
-            this.Panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel7.Location = new System.Drawing.Point(280, 0);
             this.Panel7.Name = "Panel7";
-            this.Panel7.Size = new System.Drawing.Size(270, 79);
+            this.Panel7.Size = new System.Drawing.Size(202, 64);
             this.Panel7.TabIndex = 619;
             // 
             // Label5
             // 
             this.Label5.AutoSize = true;
             this.Label5.ForeColor = System.Drawing.Color.White;
-            this.Label5.Location = new System.Drawing.Point(84, 12);
-            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label5.Location = new System.Drawing.Point(63, 10);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(28, 16);
+            this.Label5.Size = new System.Drawing.Size(23, 13);
             this.Label5.TabIndex = 618;
             this.Label5.Text = "min";
             // 
@@ -574,10 +533,9 @@
             this.min.AutoSize = true;
             this.min.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min.ForeColor = System.Drawing.Color.White;
-            this.min.Location = new System.Drawing.Point(79, 41);
-            this.min.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.min.Location = new System.Drawing.Point(59, 33);
             this.min.Name = "min";
-            this.min.Size = new System.Drawing.Size(34, 25);
+            this.min.Size = new System.Drawing.Size(27, 20);
             this.min.TabIndex = 618;
             this.min.Text = "00";
             // 
@@ -585,10 +543,9 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(167, 12);
-            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label4.Location = new System.Drawing.Point(125, 10);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(30, 16);
+            this.Label4.Size = new System.Drawing.Size(24, 13);
             this.Label4.TabIndex = 618;
             this.Label4.Text = "seg";
             // 
@@ -597,10 +554,9 @@
             this.seg.AutoSize = true;
             this.seg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seg.ForeColor = System.Drawing.Color.White;
-            this.seg.Location = new System.Drawing.Point(167, 41);
-            this.seg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.seg.Location = new System.Drawing.Point(125, 33);
             this.seg.Name = "seg";
-            this.seg.Size = new System.Drawing.Size(34, 25);
+            this.seg.Size = new System.Drawing.Size(27, 20);
             this.seg.TabIndex = 618;
             this.seg.Text = "00";
             // 
@@ -612,9 +568,8 @@
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.Label2.ForeColor = System.Drawing.Color.DarkGray;
             this.Label2.Location = new System.Drawing.Point(0, 0);
-            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(373, 79);
+            this.Label2.Size = new System.Drawing.Size(280, 64);
             this.Label2.TabIndex = 619;
             this.Label2.Text = "Tiempo estimado: 6 minutos";
             this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -626,10 +581,9 @@
             this.Label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(0, 86);
-            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label1.Location = new System.Drawing.Point(0, 70);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(643, 213);
+            this.Label1.Size = new System.Drawing.Size(482, 173);
             this.Label1.TabIndex = 616;
             this.Label1.Text = "Instalando Servidor...\r\n\r\nNo Cierre esta Ventana, se cerrara Automaticamente cuan" +
     "do este todo Listo";
@@ -640,10 +594,9 @@
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 16);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 13);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(643, 70);
+            this.pictureBox3.Size = new System.Drawing.Size(482, 57);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 604;
             this.pictureBox3.TabStop = false;
@@ -653,19 +606,17 @@
             this.Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.Panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel5.Location = new System.Drawing.Point(0, 0);
-            this.Panel5.Margin = new System.Windows.Forms.Padding(4);
             this.Panel5.Name = "Panel5";
-            this.Panel5.Size = new System.Drawing.Size(643, 16);
+            this.Panel5.Size = new System.Drawing.Size(482, 13);
             this.Panel5.TabIndex = 618;
             // 
             // Panel9
             // 
             this.Panel9.Controls.Add(this.lblbuscador_de_servidores);
             this.Panel9.Controls.Add(this.panel3);
-            this.Panel9.Location = new System.Drawing.Point(21, 132);
-            this.Panel9.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel9.Location = new System.Drawing.Point(16, 107);
             this.Panel9.Name = "Panel9";
-            this.Panel9.Size = new System.Drawing.Size(603, 188);
+            this.Panel9.Size = new System.Drawing.Size(452, 153);
             this.Panel9.TabIndex = 619;
             // 
             // lblbuscador_de_servidores
@@ -674,10 +625,9 @@
             this.lblbuscador_de_servidores.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblbuscador_de_servidores.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.lblbuscador_de_servidores.ForeColor = System.Drawing.Color.White;
-            this.lblbuscador_de_servidores.Location = new System.Drawing.Point(4, 0);
-            this.lblbuscador_de_servidores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblbuscador_de_servidores.Location = new System.Drawing.Point(3, 0);
             this.lblbuscador_de_servidores.Name = "lblbuscador_de_servidores";
-            this.lblbuscador_de_servidores.Size = new System.Drawing.Size(599, 188);
+            this.lblbuscador_de_servidores.Size = new System.Drawing.Size(449, 153);
             this.lblbuscador_de_servidores.TabIndex = 614;
             this.lblbuscador_de_servidores.Text = "Buscando servidores instalados...";
             this.lblbuscador_de_servidores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -687,9 +637,8 @@
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(4, 188);
+            this.panel3.Size = new System.Drawing.Size(3, 153);
             this.panel3.TabIndex = 615;
             // 
             // btnInstalarServidor
@@ -700,10 +649,9 @@
             this.btnInstalarServidor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInstalarServidor.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.btnInstalarServidor.ForeColor = System.Drawing.Color.White;
-            this.btnInstalarServidor.Location = new System.Drawing.Point(39, 23);
-            this.btnInstalarServidor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInstalarServidor.Location = new System.Drawing.Point(29, 19);
             this.btnInstalarServidor.Name = "btnInstalarServidor";
-            this.btnInstalarServidor.Size = new System.Drawing.Size(551, 103);
+            this.btnInstalarServidor.Size = new System.Drawing.Size(413, 84);
             this.btnInstalarServidor.TabIndex = 610;
             this.btnInstalarServidor.Text = "Instalar Servidor";
             this.btnInstalarServidor.UseVisualStyleBackColor = false;
@@ -712,15 +660,14 @@
             // 
             // InstalacionBd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1821, 1055);
+            this.ClientSize = new System.Drawing.Size(1366, 857);
             this.Controls.Add(this.Panel2);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "InstalacionBd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
